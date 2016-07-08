@@ -104,7 +104,7 @@ span a{
 	text-decoration:none;
 	color:#6c6c6c;
 }
-ul>li:first-Child{
+.search ul>li:first-Child{
 	background-color:#ff5400;
 	color:white;
 }
@@ -121,16 +121,30 @@ ul>li:first-Child{
 	height:30px;
 	left:100px;
 	position:absolute;
-	background-color:#ff5400;
+	background-color:#ff6537;
 	color:white;
-	font-size:13px;
+	font-size:12px;
 	padding:3px;
 }
-.icon{
-	background-image:url(C:\Users\a8897\Documents\GitHub\demo_taobao\index\icon.png) right no-repeat;
+.nav_first ul{
+	list-style:none:
+	line-height:30px;
+	margin-left:50px;
 }
-
-
+.nav_first li{
+	width:70px;
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+	color:#f40;
+	text-align:center;
+	font-size:12px;
+	float:left:
+}
+.nav_first a{
+    text-decoration: none;
+    color:#6c6c6c;
+}
 
 
 
