@@ -7,6 +7,7 @@
 .fr{
     float: right;
 }
+
 /*头部*/
 .headerBar{
 	width:100%;
@@ -87,6 +88,9 @@ a:hover{
 	cursor:pointer;
 	outline:none;
 }
+.search_btn:hover{
+	background-color:red;
+}
 .search span{
 	width:24px;
 	height:42px;
@@ -106,9 +110,9 @@ a:hover{
 	text-decoration:none;
 	color:#6c6c6c;
 }
-.search ul>li:first-Child{
-	background-color:#ff5400;
-	color:white;
+.bgcolor{
+	background-color:#ff5400 !important;
+	color:white !important;
 }
 /*bottom*/
 .header_bottom{
@@ -133,7 +137,15 @@ a:hover{
 	position:absolute;
 	width:1176px;
 	height:30px;
-	left:300px;
+	left:290px;
+}
+.nav_first li:hover a,.nav_second li:hover a{
+	display:block;
+	color:white !important;
+	width:75px;
+	height:30px;
+	border-radius:30%;
+	background-color:#f40;
 }
 .nav_first ul{
 	text-align:center;
@@ -142,8 +154,9 @@ a:hover{
 	float:left;
 	list-style:none;
 	line-height:36px;
-	margin-left:15px;
 	font-weight:700;
+	width:75px;
+	text-align:center;
 }
 .nav_first a{
     text-decoration: none;
@@ -213,11 +226,25 @@ a:hover{
 	font-size:13px;
 	margin-top:5px;
 }
+.promot{
+	position:absolute;
+	z-index:2;
+	top:120px;
+	cursor:pointer;
+}
+.promot a{
+	display:block;
+	width:25px;
+	height:30px;
+	background:grey;
+	line-height:30px;
+	text-align:center;
+	
+}
 .img_show1{
 	width:520px;
 	height:280px;
 	position:relative;
-	background-color:red;
 	top:10px;
 	left:300px;
 }
@@ -225,13 +252,17 @@ a:hover{
 	list-style:none;
 	text-align:center;
 }
+
 .img li{
 	position:absolute;
+	display:none;
+	z-index:1;
 }
 .num{
 	position:absolute;
 	margin-top:250px;
 	left:230px;
+	z-index:3;
 
 }
 .num li{
@@ -252,6 +283,49 @@ a:hover{
 	left:830px;
 	top:10px;
 }
+.login{
+	position:absolute;
+	width:280px;
+	height:165px;
+	left:1000px;
+	top:10px;
+}
+.login a img{
+	border-radius:50%;
+	width:60px;
+	height:60px;
+	margin-top:20px;
+	margin-left:100px;
+}
+.login p{
+	margin:0 110px;
+	font-size:12px;
+}
+.login span{
+	font-size:12px;
+	margin-left:40px;
+}
+.login span a{
+	text-decoration:none;
+	color:#f40;
+}
+.login_bottom a{
+	display:inline-block;
+	text-decoration:none;
+	color:white;
+	background:#f40;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+	margin-top:5px;
+}
+
+
+
+
 
 
 
