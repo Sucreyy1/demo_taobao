@@ -41,7 +41,7 @@ a:hover{
 	height:135px:
 }
 .logo{
-	margin:45px 120px;
+	margin:30px 100px;
 	position:absolute;
 }
 .search{
@@ -87,7 +87,7 @@ a:hover{
 	cursor:pointer;
 	outline:none;
 }
-span{
+.search span{
 	width:24px;
 	height:42px;
 	position:absolute;
@@ -99,7 +99,10 @@ span{
 	padding:6px;
 	line-height:20px;
 }
-span a{
+.search a:hover{
+	color:#f22e00;
+}
+.search a{
 	text-decoration:none;
 	color:#6c6c6c;
 }
@@ -112,18 +115,19 @@ span a{
 	width:100%;
 	height:36px;
 	position:relative;
-	top:150px;
+	top:130px;
 }
 .bottom_nav{
-	line-height:30px;
-	width:190px;
-	height:30px;
+	line-height:20px;
+	width:184px;
+	height:20px;
 	left:100px;
 	position:absolute;
 	background-color:#ff6537;
 	color:white;
 	font-size:12px;
 	padding:3px;
+	top:9px;
 }
 .nav_first{
 	position:absolute;
@@ -151,6 +155,7 @@ span a{
 	height:30px;
 	left:515px;
 	top:1px;
+	font-size:14px;
 }
 .nav_second ul{
 	text-align:center;
@@ -171,17 +176,82 @@ span a{
 	text-decoration:none;
 	color:#3c3c3c;
 }
+/*list*/
+.main_body{
+	position:relative;
+	width:100%;
+	height:500px;
+	background-color:#f5f5f5;
+	
+}
+.list{
+	width:190px;
+	height:475px;
+	background-color:#ff6537;
+	color:white;
+	position:absolute;
+	left:100px;
+}
+.list a{
+	color:white;
+	text-decoration:none;
+	font-weight:700;
+}
+.list a:hover{
+	text-decoration:underline;
+}
+.list ul{
+	text-align:center;
+	top:5px;
+	position:absolute;
+	list-style:none;
+	
+}
+.list li{
+	height:30px;
+	width:190px;
+	font-size:13px;
+	margin-top:5px;
+}
+.img_show1{
+	width:520px;
+	height:280px;
+	position:relative;
+	background-color:red;
+	top:10px;
+	left:300px;
+}
+.img_show1 ul{
+	list-style:none;
+	text-align:center;
+}
+.img li{
+	position:absolute;
+}
+.num{
+	position:absolute;
+	margin-top:250px;
+	left:230px;
 
-
-
-
-
-
-
-
-
-
-
+}
+.num li{
+	display:inline-block;
+}
+.selected a{
+	background:#f40 !important;
+}
+.img_show1 li a {
+	display:block;
+    width: 10px;
+    height:10px;
+    border-radius:50%;
+    background:#B7B7B7;
+}
+.img_show2{
+	position:absolute;
+	left:830px;
+	top:10px;
+}
 
 
 
