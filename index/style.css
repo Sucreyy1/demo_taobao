@@ -227,10 +227,14 @@ a:hover{
 	margin-top:5px;
 }
 .promot{
-	position:absolute;
+	position:relative;
 	z-index:2;
 	top:120px;
 	cursor:pointer;
+	display:none;
+}
+.img_show1:hover .promot{
+	display:block;
 }
 .promot a{
 	display:block;
@@ -239,7 +243,24 @@ a:hover{
 	background:grey;
 	line-height:30px;
 	text-align:center;
+	opacity:0.5;
 	
+}
+.promot a:hover{
+	opacity:1;
+}
+::selection
+{
+color:#ff0000;
+}
+.left{
+	position:absolute;
+	float:left;
+	
+}
+.right{
+	position:absolute;
+	left:495px;
 }
 .img_show1{
 	width:520px;
