@@ -225,6 +225,45 @@ a:hover{
 	width:190px;
 	font-size:13px;
 	margin-top:5px;
+	line-height:30px;
+}
+.list li:hover{
+	background-color:red;
+}
+.shop{
+	position:absolute;
+	width:450px;
+	height:520px;
+	border:1px solid red;
+	background-color:white;
+	left:290px;
+	display:none;
+	z-index:4;
+}
+.red{
+	color:#f40 !important;
+}
+.shop p a {
+	text-decoration:none;
+	color:#666;
+	display:inline-block;
+	margin-left:12px;
+	white-space:nowrap;
+	font-size:12px;
+	padding-top:15px;
+}
+.shop h5 a {
+	font-style:normal;
+	font-size:12px;
+	position:relative;
+	left:1px;
+	top:5px;
+	text-decoration:none;
+	color:#3c3c3c;
+	
+}
+.shop h5 a:hover{
+	color:#f40;
 }
 .promot{
 	position:relative;
@@ -235,6 +274,14 @@ a:hover{
 }
 .img_show1:hover .promot{
 	display:block;
+}
+.bottom_img{
+	margin-left:300px;
+}
+.right_img{
+	position:absolute;
+	top:190px;
+	left:1005px;
 }
 .promot a{
 	display:block;

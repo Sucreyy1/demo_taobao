@@ -31,6 +31,11 @@ $(function(){
 		$('.img li').eq(i).stop().fadeIn().siblings().stop().fadeOut();
 		$('.num li').eq(i).addClass('selected').siblings().removeClass('selected');
 	});
+	$('.list,.shop').hover(function(){
+		$('.shop').stop().fadeIn();
+	},function(){
+		$('.shop').stop().fadeOut();
+	});
 });
 	/*封装函数*/
 	function move(){
